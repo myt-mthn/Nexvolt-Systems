@@ -18,7 +18,7 @@
     --text-secondary: #697a7c;
     --text-tertiary: #52b5c0;
     --accent: #ffffff;
-    --accent-soft: #60a5fa;
+    --accent-soft: #05dfe3;
     --radius: 12px;
     --max-width: 1100px;
 }
@@ -104,7 +104,7 @@ nav a:hover::after {
 }
 
 .hero-tag {
-    color: var(--accent);
+    color: var(--accent-soft);
     font-size: 0.85rem;
     letter-spacing: 1px;
     margin-bottom: 1rem;
@@ -133,8 +133,8 @@ nav a:hover::after {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background: var(--accent);
-    color: #fff;
+    background: var(--text-secondary);
+    color: #ffffff;
     border-radius: var(--radius);
     font-weight: 500;
     opacity: 1;
@@ -143,7 +143,7 @@ nav a:hover::after {
 
 .hero-btn:hover {
     background: var(--accent-soft);
-    transform: translateY(-2px);
+    transform: translateY(-0.1px);
 }
 
 /* SECTIONS */
